@@ -23,7 +23,5 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run bot
-        env:
-          TOKEN: ${{7409190990:AAEFfj5owT8zuT-Yu9u0uFzKsL8N2ixq4e0}}
         run: |
           python main.py
